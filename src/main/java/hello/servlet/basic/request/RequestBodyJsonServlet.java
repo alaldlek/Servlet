@@ -16,10 +16,10 @@ import java.nio.charset.StandardCharsets;
 /**
  * Json형식
  */
-@WebServlet(name = "requestBodyJsonServlet", urlPatterns = "request-body-json")
+@WebServlet(name = "requestBodyJsonServlet", urlPatterns = "/request-body-json")
 public class RequestBodyJsonServlet extends HttpServlet {
 
-    private ObjectMapper objectMapper = new ObjectMapper();
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
