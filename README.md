@@ -50,3 +50,7 @@ MVC 패턴은 지금까지 학습한 것 처럼 하나의 서블릿이나, JSP�
 ![image](https://github.com/user-attachments/assets/be73f862-c4b2-4944-935d-a1bbe76d4a6e)
 
 위 패턴이 스프링으로 넘어가서도 어느정도 유지된다.
+
+1.1.4 Spring MVC structure
+
+![img.png](img.png)
