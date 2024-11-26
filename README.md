@@ -54,3 +54,5 @@ MVC 패턴은 지금까지 학습한 것 처럼 하나의 서블릿이나, JSP�
 1.1.4 Spring MVC structure
 
 ![img.png](img.png)
+
+스프링 MVC의 구조는 MVC 프레임워크랑 구조는 비슷하지만 FrontController의 기능을 DispacherServlet이 대체한다.
